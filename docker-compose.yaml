@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  go:
+    build: .
+    container_name: grpcgo
+    tty: true
+    volumes:
+      - ./:/app/   
+
